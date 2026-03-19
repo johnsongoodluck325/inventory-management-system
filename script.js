@@ -102,6 +102,7 @@ console.log(`$${myStore.getInventoryValue().toFixed(2)}`);
 console.log("\nSearch Result:");
 const foundProduct = myStore.findProductByName("Milk");
 
+// Display results to console output
 // Display result of search
 if (foundProduct) {
     console.log(foundProduct.toString());
