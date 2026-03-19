@@ -25,7 +25,7 @@ class Product {
     }
 }
 
-
+  // PerishableProduct Class - extends Product with expiration date
  // Store expiration date for perishable goods
 // Extends Product by adding expiration date
 class PerishableProduct extends Product {
