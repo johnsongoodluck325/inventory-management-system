@@ -33,7 +33,7 @@ class PerishableProduct extends Product {
         super(name, price, quantity);
         this.expirationDate = expirationDate;
     }
-
+     // Override toString to include expiration date
     // Include expiration date in product description
     toString() {
         return `${super.toString()}, Expiration Date: ${this.expirationDate}`;
