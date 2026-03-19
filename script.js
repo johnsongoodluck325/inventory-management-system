@@ -1,5 +1,5 @@
 // Inventory Management System Project
-// Represents a general product in the store
+// This program simulates a store inventory system using classes
 class Product {
     constructor(name, price, quantity) {
         this.name = name;
