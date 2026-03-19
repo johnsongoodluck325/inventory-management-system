@@ -91,6 +91,7 @@ myStore.addProduct(yogurt);
 console.log("Total Inventory Value BEFORE discount:");
 console.log(`$${myStore.getInventoryValue().toFixed(2)}`);
 
+// Apply 15% discount to all inventory items
 // Apply 15% discount to all products
 Product.applyDiscount(myStore.inventory, 0.15);
 
