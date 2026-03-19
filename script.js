@@ -1,4 +1,4 @@
-//Product Class
+// Inventory Management System Project
 // Represents a general product in the store
 class Product {
     constructor(name, price, quantity) {
