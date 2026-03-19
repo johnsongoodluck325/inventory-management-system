@@ -51,7 +51,7 @@ class Store {
     addProduct(product) {
         this.inventory.push(product);
     }
-
+     // Use reduce to calculate total inventory value
     // Calculate total value of all products in inventory
     getInventoryValue() {
         return this.inventory.reduce((total, product) => {
