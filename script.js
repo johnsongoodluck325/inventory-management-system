@@ -46,7 +46,7 @@ class Store {
     constructor() {
         this.inventory = [];
     }
-
+     // Add multiple products including perishable ones
     // Add a product to the inventory
     addProduct(product) {
         this.inventory.push(product);
