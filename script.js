@@ -26,7 +26,7 @@ class Product {
 }
 
 
- //PerishableProduct Class
+ // Store expiration date for perishable goods
 // Extends Product by adding expiration date
 class PerishableProduct extends Product {
     constructor(name, price, quantity, expirationDate) {
