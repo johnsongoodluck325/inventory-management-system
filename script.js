@@ -67,9 +67,9 @@ class Store {
     }
 }
 
-//Testing the System.
 
-// Create store instance
+
+// Create store instance for testing
 const myStore = new Store();
 
 // Create products (3 regular, 2 perishable)
