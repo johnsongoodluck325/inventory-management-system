@@ -40,7 +40,7 @@ class PerishableProduct extends Product {
     }
 }
 
-//Store Class
+/// Store Class - handles inventory operations
 // Manages inventory of products
 class Store {
     constructor() {
