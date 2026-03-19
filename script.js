@@ -99,7 +99,7 @@ Product.applyDiscount(myStore.inventory, 0.15);
 console.log("\nTotal Inventory Value AFTER 15% discount:");
 console.log(`$${myStore.getInventoryValue().toFixed(2)}`);
 
-// Search for a product by name
+// Search for product by name (case insensitive)
 console.log("\nSearch Result:");
 const foundProduct = myStore.findProductByName("Milk");
 
