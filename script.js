@@ -80,7 +80,7 @@ const rice = new Product("Rice", 10.00, 15);
 const milk = new PerishableProduct("Milk", 1.50, 10, "2024-12-31");
 const yogurt = new PerishableProduct("Yogurt", 2.00, 25, "2024-11-15");
 
-// Add products to store inventory
+// Add new product object into inventory
 myStore.addProduct(apple);
 myStore.addProduct(bread);
 myStore.addProduct(rice);
