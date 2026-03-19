@@ -16,7 +16,7 @@ class Product {
     toString() {
         return `Product: ${this.name}, Price: $${this.price.toFixed(2)}, Quantity: ${this.quantity}`;
     }
-     // Inventory array stores all products
+     // Loop through products array and update prices
     // Apply a discount to an array of products
     static applyDiscount(products, discount) {
         products.forEach(product => {
