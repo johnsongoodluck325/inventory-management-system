@@ -7,7 +7,7 @@ class Product {
         this.quantity = quantity;
     }
    // Calculate total inventory value
-    // Calculate total stock value (price * quantity)
+   // Calculate total stock value (price * quantity)
     getTotalValue() {
         return this.price * this.quantity;
     }
